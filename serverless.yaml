@@ -11,3 +11,11 @@ functions:
     handler: dist/serverless.handler
     events:
       - httpApi: '*'
+
+package:
+  patterns:
+    - '!.*'
+    - '!src/**'
+    - '!docs/**'
+    - '!readme.md'
+    - '!docker-compose.yaml'
