@@ -138,7 +138,7 @@ Berikut salah satu contoh request menggunakan salah satu endpoint pada projek in
 ### Endpoints:
 
 Berikut daftar endpoints yang ada dalam aplikasi ini:
-|--------|------------------|-------------------|------------------------|
+
 |  Verb  | URI              |   Protected Route |    Notes               |
 |--------|------------------|-------------------|------------------------|
 | POST   | `/auth/login`    | No                |   Get User Access Token|
