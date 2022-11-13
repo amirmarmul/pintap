@@ -86,7 +86,7 @@ Requirements:
 - [Serverless Framework](https://www.serverless.com/framework/docs/getting-started/)
 - [AWS accounts](https://aws.amazon.com/)
 
-Langkah pertama pastikan telah membuat (IAM users)[https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console] pada Akun AWS Lambda.
+Langkah pertama pastikan telah membuat [IAM users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) pada Akun AWS Lambda.
 
 Install dan Konfigurasi Serverless Framework
 
