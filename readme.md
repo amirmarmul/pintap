@@ -20,6 +20,7 @@ Dalam aplikasi ini, saya menggunakan:
 - Dotenv
 - Postman
 - VSCode
+- Github Actions, build and deploy to AWS Lambda after release published
 - ...
 
 ## Deploy di komputer lokal
