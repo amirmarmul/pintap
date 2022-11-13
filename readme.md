@@ -79,18 +79,6 @@ npm run start
 => Listening on 4000
 ```
 
-Selanjutnya, import [Pintab Postman Collection](docs/Pintap.postman_collection.json) yang ada pada folder docs di repository ini.
-
-kemudian pada bagian current value masukkan endpoint:
-
-`http://localhost:4000`
-
-![Setup collection variables](docs/screen-1.png "Screen 1")
-
-Berikut salah satu contoh request menggunakan salah satu endpoint pada projek ini.
-![List users endpoint](docs/screen-2.png "Screen 2")
-
-
 ## Deploy ke Serverless Platform - AWS Lambda
 
 Requirements:
