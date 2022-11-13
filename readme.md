@@ -1,7 +1,6 @@
-# Node.JS, Express, NoSQL, Clean Architecture, Serverless Framework
+# BE Pintap
 
 ## Daftar Isi
-
 
 1. [Tech Stack](#tech-stack)
 2. [Deploy di komputer lokal](#deploy-di-komputer-lokal)
