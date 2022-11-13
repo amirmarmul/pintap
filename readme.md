@@ -146,3 +146,17 @@ kemudian pada bagian current value masukkan endpoint dari hasil deploy pada serv
 
 Berikut salah satu contoh request menggunakan salah satu endpoint pada projek ini.
 ![List users endpoint](docs/screen-2.png "Screen 2")
+
+
+### Endpoints:
+
+Berikut daftar endpoints yang ada dalam aplikasi ini:
+|--------|------------------|-------------------|------------------------|
+|  Verb  | URI              |   Protected Route |    Notes               |
+|--------|------------------|-------------------|------------------------|
+| POST   | `/auth/login`    | No                |   Get User Access Token|
+| GET    | `/users`         | No                |   List Users           |
+| POST   |  `/users`        | No                |   Create User          |
+| GET    |  `/users/:userId`| JWT               |   Get User             |
+| PUT    |  `/users/:userId`| JWT               |   Update User          |
+| DELETE |  `/users/:userId`| JWT               |   Delete User          |
