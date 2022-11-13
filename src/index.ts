@@ -1,10 +1,7 @@
-import bootstrap from './infra/config/bootstrap';
 import server from './infra/webserver/server';
 
-const start = async () => {
+export const start = async () => {
   try {
-    await bootstrap();
-
     await server();
 
   } catch (error) {

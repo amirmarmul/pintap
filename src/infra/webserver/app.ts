@@ -1,6 +1,6 @@
 import express, { NextFunction, Request, Response } from 'express';
-import routes from './routes';
 import dependencies from '../config/dependencies';
+import routes from './routes';
 
 declare global {
   namespace Express {

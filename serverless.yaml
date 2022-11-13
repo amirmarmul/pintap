@@ -1,0 +1,13 @@
+service: serverless-pintap
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  region: ap-southeast-1
+
+functions:
+  app:
+    handler: dist/serverless.handler
+    events:
+      - httpApi: '*'
