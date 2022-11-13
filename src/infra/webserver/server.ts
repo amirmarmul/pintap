@@ -1,9 +1,8 @@
 import app from './app';
-
-const PORT = 4000;
+import config from '../config/config';
 
 function server() {
-  app.listen(PORT, () => console.log('Listening on', PORT))
+  app.listen(config.port, () => console.log('Listening on', config.port))
 }
 
 export default server;
