@@ -2,6 +2,7 @@ import config from './config';
 import { SUPPORTED_DATABASE } from './constants';
 
 import UserRepositoryMongo from '../repositories/UserRepositoryMongo';
+import UserRepositoryDynamoDb from '../repositories/UserRepositoryDynamoDb';
 import UserRepositoryInMemory from '../repositories/UserRepositoryInMemory';
 
 import JwtAccessToken from '../security/JwtAccessToken';
@@ -14,7 +15,11 @@ const dependencies: any = {
 
 if (config.database.dialect == SUPPORTED_DATABASE.MONGO) {
   dependencies.userRepository = new UserRepositoryMongo();
-} else {
+}
+else if (config.database.dialect == SUPPORTED_DATABASE.DYNAMO_DB) {
+  dependencies.userRepository = new UserRepositoryDynamoDb();
+}
+else {
   dependencies.userRepository = new UserRepositoryInMemory();
 }
 
